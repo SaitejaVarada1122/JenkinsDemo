@@ -14,6 +14,6 @@ public class TestController {
 	
 	@GetMapping("/greet")
 	public ResponseEntity<?> getStudents(@RequestParam String name) {
-		return new ResponseEntity<>("Hello " + name + ", Welcome to KK Supermarket", HttpStatus.OK);
+		return new ResponseEntity<>("Hello " + name + ", Welcome to KK Supermarket!!", HttpStatus.OK);
 	}
 }
